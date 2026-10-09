@@ -12,6 +12,8 @@ This is a preparation aid, not legal or financial advice. Free accredited help i
 |---|---|---|
 | [CRSC Veteran Claim Assistant](skills/crsc-veteran-claim-assistant/README.md) | Builds or rescues a Combat-Related Special Compensation claim (DD 2860, DD 3210) and estimates monthly CRSC, the VA rating that maxes it, and backpay | Available |
 
+For other tools in this space and the legal limits on claim help, see [docs/landscape.md](docs/landscape.md).
+
 ## Install
 
 **From the Claude directory:** search for "Veteran Companion" and install it. Updates arrive automatically, including each December's VA rate change.
