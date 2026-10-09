@@ -49,7 +49,7 @@ Do not post drafts that contain Social Security numbers, DoD IDs or medical deta
 .claude-plugin/
   plugin.json          plugin manifest (name, version, icon, URLs)
   marketplace.json     lets Claude Code install from this repo
-  icon.png, icon.svg
+  icon.svg             listing icon (text SVG, no scripts)
 skills/
   <skill-name>/
     SKILL.md           instructions Claude follows
