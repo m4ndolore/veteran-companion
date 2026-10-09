@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="CRSC Veteran Claim Assistant">
+  <rect width="512" height="512" rx="112" fill="#14284B"/>
+  <path d="M256 64 L408 116 V248 C408 340 344 408 256 448 C168 408 104 340 104 248 V116 Z" fill="#C9A227"/>
+  <path d="M256 92 L384 136 V248 C384 326 330 384 256 418 C182 384 128 326 128 248 V136 Z" fill="#14284B"/>
+  <polygon points="256.0,130.0 276.0,186.5 335.9,188.0 288.3,224.5 305.4,282.0 256.0,248.0 206.6,282.0 223.7,224.5 176.1,188.0 236.0,186.5" fill="#FFFFFF"/>
+  <rect x="176" y="318" width="160" height="40" rx="6" fill="#FFFFFF"/>
+  <rect x="176" y="318" width="53" height="40" rx="6" fill="#B22234"/>
+  <rect x="283" y="318" width="53" height="40" rx="6" fill="#3C6EB4"/>
+  <rect x="223" y="318" width="10" height="40" fill="#FFFFFF"/>
+  <rect x="279" y="318" width="10" height="40" fill="#FFFFFF"/>
+</svg>

@@ -1,4 +1,4 @@
-# CRSC Claim Builder
+# CRSC Veteran Claim Assistant
 
 A Claude plugin that helps a military retiree file a Combat-Related Special Compensation (CRSC) claim or reconsideration, and estimates what it will pay.
 
@@ -15,19 +15,19 @@ This is a preparation aid, not legal or financial advice. DFAS computes the actu
 
 ## Install
 
-**From the Claude directory:** search for "CRSC Claim Builder" and install it. Updates arrive automatically.
+**From the Claude directory:** search for "CRSC Veteran Claim Assistant" and install it. Updates arrive automatically.
 
 **Claude Code:**
 
 ```
 /plugin marketplace add m4ndolore/veteran-companion
-/plugin install crsc-claim-builder
+/plugin install crsc-veteran-claim-assistant
 ```
 
 **Upload by hand:** download a file from the latest release.
 
-- `crsc-claim-builder.plugin`: in claude.ai, Customize > Plugins > Add > Upload plugin. Works on personal plans.
-- `crsc-claim-builder-skill.zip`: Customize > Skills > + > Upload a skill. Works on the Free plan. Turn on code execution under Settings > Capabilities so the calculator can run.
+- `crsc-veteran-claim-assistant.plugin`: in claude.ai, Customize > Plugins > Add > Upload plugin. Works on personal plans.
+- `crsc-veteran-claim-assistant-skill.zip`: Customize > Skills > + > Upload a skill. Works on the Free plan. Turn on code execution under Settings > Capabilities so the calculator can run.
 
 An uploaded copy does not update itself. Download a new file after each December rate change.
 
@@ -48,13 +48,13 @@ Do not post drafts that contain Social Security numbers, DoD IDs or medical deta
 
 VA compensation rates change every December 1. To update:
 
-1. Copy `skills/crsc-claim-builder/data/va_rates_2026.json` to `va_rates_<year>.json`.
+1. Copy `skills/crsc-veteran-claim-assistant/data/va_rates_2026.json` to `va_rates_<year>.json`.
 2. Enter the new rates from [va.gov](https://www.va.gov/disability/compensation-rates/veteran-rates/), the new `effective` date, and `cola_from_prior_year`.
 3. Run `python3 -m unittest discover tests`, then bump `version` in `.claude-plugin/plugin.json`.
 
 The calculator uses the newest file and warns once a table is more than a year old.
 
-Backpay rules have changed three times since 2025 (Soto v. United States, DoD guidance of Aug 2025, Jan 2026 and May 2026, and Ploe v. United States). When guidance changes, update the Backpay section of `skills/crsc-claim-builder/SKILL.md`.
+Backpay rules have changed three times since 2025 (Soto v. United States, DoD guidance of Aug 2025, Jan 2026 and May 2026, and Ploe v. United States). When guidance changes, update the Backpay section of `skills/crsc-veteran-claim-assistant/SKILL.md`.
 
 ## Development
 

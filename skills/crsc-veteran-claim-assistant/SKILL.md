@@ -1,9 +1,9 @@
 ---
-name: crsc-claim-builder
+name: crsc-veteran-claim-assistant
 description: Build or rescue a Combat-Related Special Compensation (CRSC) claim or reconsideration, and estimate the monthly CRSC entitlement, the VA rating needed to max it, and backpay. Use for DD 2860, DD 3210, CRSC denials, or "how much CRSC will I get."
 ---
 
-# CRSC Claim Builder
+# CRSC Veteran Claim Assistant
 
 Helps a military retiree file a Combat-Related Special Compensation (CRSC) claim or reconsideration that a service CRSC board can approve, and estimates what it will pay. The governing rules are DoD 7000.14-R, Volume 7B, Chapter 63 (the FMR chapter), cited below as "FMR." The board decides each VA diagnostic code separately, on documents, by a preponderance of "credible, objective documentary information" (FMR 10.1.1). Quality beats quantity.
 
@@ -94,7 +94,7 @@ Find the smallest VA rating tier whose rate (with the member's dependents) meets
 
 ### Calculator
 
-The calculator is bundled with this skill at `scripts/crsc_calc.py`, a path relative to the folder that holds this SKILL.md. In Claude Code the folder is `${CLAUDE_PLUGIN_ROOT}/skills/crsc-claim-builder`. It needs Python 3.9+ and only the standard library. It reads local files and makes no network calls.
+The calculator is bundled with this skill at `scripts/crsc_calc.py`, a path relative to the folder that holds this SKILL.md. In Claude Code the folder is `${CLAUDE_PLUGIN_ROOT}/skills/crsc-veteran-claim-assistant`. It needs Python 3.9+ and only the standard library. It reads local files and makes no network calls.
 
 1. Write the veteran's numbers to a JSON file shaped like `examples/example_input.json`.
 2. Run `python3 scripts/crsc_calc.py input.json`.
