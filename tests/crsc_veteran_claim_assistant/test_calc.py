@@ -6,7 +6,7 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-SKILL = Path(__file__).resolve().parent.parent / "skills" / "crsc-veteran-claim-assistant"
+SKILL = Path(__file__).resolve().parents[2] / "skills" / "crsc-veteran-claim-assistant"
 SCRIPT = SKILL / "scripts" / "crsc_calc.py"
 EXAMPLE = SKILL / "examples" / "example_input.json"
 sys.path.insert(0, str(SCRIPT.parent))
