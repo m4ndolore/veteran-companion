@@ -1,0 +1,16 @@
+{
+  "name": "veteran-companion",
+  "owner": {
+    "name": "m4ndolore"
+  },
+  "metadata": {
+    "description": "Claude plugins for military retirees and veterans."
+  },
+  "plugins": [
+    {
+      "name": "crsc-claim-builder",
+      "source": "./",
+      "description": "Build or rescue a CRSC claim or reconsideration and estimate monthly CRSC and backpay."
+    }
+  ]
+}

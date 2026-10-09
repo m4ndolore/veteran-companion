@@ -1,0 +1,18 @@
+{
+  "retirement_type": "chapter61_under20",
+  "years_for_cap": 17.5,
+  "retired_pay_base": 9000.00,
+  "gross_retired_pay": 6750.00,
+  "va_waiver": 4300.00,
+  "cola_factor": 1.0,
+  "dependents": {"spouse": true, "children_under_18": 2},
+  "combat_related_smc": 0,
+  "conditions": [
+    {"name": "TBI with PTSD", "code": "8045-9411", "pct": 70, "combat": true},
+    {"name": "Migraine", "code": "8100", "pct": 50, "combat": true},
+    {"name": "Cervical spine", "code": "5242", "pct": 20, "combat": "maybe"},
+    {"name": "Tinnitus", "code": "6260", "pct": 10, "combat": "maybe"},
+    {"name": "Sleep apnea", "code": "6847", "pct": 50, "combat": false}
+  ],
+  "backpay": {"effective_date": "2025-07-01", "through_date": "2026-12-31", "receipt_date": "2026-11-01"}
+}
