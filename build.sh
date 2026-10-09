@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 python3 -m unittest discover -s tests -q
 rm -rf dist
 mkdir dist
-zip -qr dist/crsc-veteran-claim-assistant.plugin .claude-plugin skills README.md LICENSE \
+zip -qr dist/crsc-veteran-claim-assistant.plugin .claude-plugin skills README.md PRIVACY.md LICENSE \
   -x '*/__pycache__/*' '*.DS_Store'
 (cd skills && zip -qr ../dist/crsc-veteran-claim-assistant-skill.zip crsc-veteran-claim-assistant \
   -x '*/__pycache__/*' '*.DS_Store')

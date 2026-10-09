@@ -44,6 +44,8 @@ Ask Claude something like "Help me file for CRSC" or "My CRSC claim was denied, 
 
 Do not post drafts that contain Social Security numbers, DoD IDs or medical details in a public group.
 
+**Privacy:** read the full [Privacy Policy](PRIVACY.md).
+
 ## Yearly maintenance
 
 VA compensation rates change every December 1. To update:

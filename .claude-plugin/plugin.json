@@ -1,13 +1,15 @@
 {
   "name": "crsc-veteran-claim-assistant",
   "displayName": "CRSC Veteran Claim Assistant",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Build or rescue a Combat-Related Special Compensation (CRSC) claim or reconsideration (DD 2860, DD 3210), and estimate monthly CRSC, the VA rating that maxes it, and backpay.",
   "author": {
     "name": "m4ndolore"
   },
   "homepage": "https://github.com/m4ndolore/veteran-companion",
   "repository": "https://github.com/m4ndolore/veteran-companion",
+  "privacyPolicyUrl": "https://github.com/m4ndolore/veteran-companion/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/m4ndolore/veteran-companion/issues",
   "license": "MIT",
   "icon": "./.claude-plugin/icon.png",
   "keywords": ["crsc", "veterans", "military-retirement", "va-disability", "dd-2860", "dd-3210", "dfas"]
