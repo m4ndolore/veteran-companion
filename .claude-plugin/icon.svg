@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="CRSC Veteran Claim Assistant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Veteran Companion">
   <rect width="512" height="512" rx="112" fill="#14284B"/>
   <path d="M256 64 L408 116 V248 C408 340 344 408 256 448 C168 408 104 340 104 248 V116 Z" fill="#C9A227"/>
   <path d="M256 92 L384 136 V248 C384 326 330 384 256 418 C182 384 128 326 128 248 V136 Z" fill="#14284B"/>

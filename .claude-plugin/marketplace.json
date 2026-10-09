@@ -4,13 +4,13 @@
     "name": "m4ndolore"
   },
   "metadata": {
-    "description": "Claude plugins for military retirees and veterans."
+    "description": "Claude plugins for military veterans, retirees and their families."
   },
   "plugins": [
     {
-      "name": "crsc-veteran-claim-assistant",
+      "name": "veteran-companion",
       "source": "./",
-      "description": "Build or rescue a CRSC claim or reconsideration and estimate monthly CRSC and backpay."
+      "description": "Claim the benefits you earned and plan life after service. Includes the CRSC Veteran Claim Assistant."
     }
   ]
 }
