@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "crsc-claim-builder",
+      "name": "crsc-veteran-claim-assistant",
       "source": "./",
       "description": "Build or rescue a CRSC claim or reconsideration and estimate monthly CRSC and backpay."
     }
